@@ -1,0 +1,38 @@
+body {
+    background-color: #d2bcbc;
+    color: #030000;
+  }
+  
+  .logout-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .logout-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .logout-message {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logout-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: linear-gradient(to right, #434343, #800080); /* Purple and black gradient */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  .logout-button:hover {
+    background: linear-gradient(to right, #800080, #434343);
+  }
